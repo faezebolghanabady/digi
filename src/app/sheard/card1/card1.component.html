@@ -1,0 +1,11 @@
+<section class="d-flex justify-content-between">
+        <div class="">
+            <img [src]="cardImg" alt="" width="120px" height="120px">
+            <h3>{{  cardPrice }}</h3>
+            <div *ngIf="discount">
+                <h1>{{ discount }}%</h1>
+                <p>{{ discounted }}</p>
+            </div>
+            <p></p>
+        </div>
+</section>

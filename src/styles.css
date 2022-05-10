@@ -1,0 +1,10 @@
+.form-control{
+    background-color: rgb(245, 243, 243);
+    border: none;
+    
+}
+
+.text-header{
+    font-size: 14px;
+    font-weight: 600;
+}

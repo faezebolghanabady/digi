@@ -1,0 +1,12 @@
+.abas{
+    color: white;
+    text-decoration: none;
+}
+
+.circle{
+    width:50px;
+    height: 50px;
+    background-color: rgb(248, 248, 244);
+    position: absolute;
+    border-radius: 50%;
+}
