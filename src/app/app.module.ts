@@ -6,6 +6,7 @@ import { HederComponent } from './page/heder/heder.component';
 import { SearchbarComponent } from './sheard/searchbar/searchbar.component';
 import { AmazingofferComponent } from './page/amazingoffer/amazingoffer.component';
 import { Card1Component } from './sheard/card1/card1.component';
+import { SupermarketComponent } from './page/supermarket/supermarket.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { Card1Component } from './sheard/card1/card1.component';
     HederComponent,
     SearchbarComponent,
     AmazingofferComponent,
-    Card1Component
+    Card1Component,
+    SupermarketComponent
   ],
   imports: [
     BrowserModule

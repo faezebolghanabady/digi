@@ -10,3 +10,6 @@
     position: absolute;
     border-radius: 50%;
 }
+.trans-amazing{
+    transition: .475s ease-in-out;
+}
