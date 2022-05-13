@@ -7,6 +7,9 @@ import { SearchbarComponent } from './sheard/searchbar/searchbar.component';
 import { AmazingofferComponent } from './page/amazingoffer/amazingoffer.component';
 import { Card1Component } from './sheard/card1/card1.component';
 import { SupermarketComponent } from './page/supermarket/supermarket.component';
+import { ProductComponent } from './sheard/product/product.component';
+import { ProductInfoComponent } from './sheard/product/product-info/product-info.component';
+import { HeaderComponent } from './sheard/header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { SupermarketComponent } from './page/supermarket/supermarket.component';
     SearchbarComponent,
     AmazingofferComponent,
     Card1Component,
-    SupermarketComponent
+    SupermarketComponent,
+    ProductComponent,
+    ProductInfoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
