@@ -11,6 +11,10 @@ import { ProductComponent } from './sheard/product/product.component';
 import { ProductInfoComponent } from './sheard/product/product-info/product-info.component';
 import { HeaderComponent } from './sheard/header/header.component';
 import { ProductPriceComponent } from './sheard/product-price/product-price.component';
+import { DeliveryComponent } from './sheard/delivery/delivery.component';
+import { DigipluscardComponent } from './sheard/digipluscard/digipluscard.component';
+import { SameproductComponent } from './sheard/sameproduct/sameproduct.component';
+import { PointssignComponent } from './sheard/pointssign/pointssign.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { ProductPriceComponent } from './sheard/product-price/product-price.comp
     ProductComponent,
     ProductInfoComponent,
     HeaderComponent,
-    ProductPriceComponent
+    ProductPriceComponent,
+    DeliveryComponent,
+    DigipluscardComponent,
+    SameproductComponent,
+    PointssignComponent
   ],
   imports: [
     BrowserModule
