@@ -10,6 +10,7 @@ import { SupermarketComponent } from './page/supermarket/supermarket.component';
 import { ProductComponent } from './sheard/product/product.component';
 import { ProductInfoComponent } from './sheard/product/product-info/product-info.component';
 import { HeaderComponent } from './sheard/header/header.component';
+import { ProductPriceComponent } from './sheard/product-price/product-price.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HeaderComponent } from './sheard/header/header.component';
     SupermarketComponent,
     ProductComponent,
     ProductInfoComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProductPriceComponent
   ],
   imports: [
     BrowserModule

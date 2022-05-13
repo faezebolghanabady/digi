@@ -8,3 +8,12 @@
     font-size: 14px;
     font-weight: 600;
 }
+
+.bg-gray{
+    background-color: rgb(243, 242, 242);
+}
+
+.btn-red{
+    color: white;
+    background-color: #ee384e;
+}
